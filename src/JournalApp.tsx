@@ -1,14 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
 import { AppRouter }  from "./router/AppRouter";
+import { AppTheme } from "./theme";
 
 function JournalApp() {
 
   return (
-    <>
-      <BrowserRouter>
+    <AppTheme>
         <AppRouter/>
-      </BrowserRouter>
-    </>
+    </AppTheme>
   )
 }
 
